@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/topics/fonts.dart';
 import 'package:flutter_application_2/topics/text.dart';
 void main(){
   runApp(
@@ -10,7 +11,7 @@ class MYApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TextExample(),
+      home: FontExample(),
     );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
-class TextExample extends StatelessWidget{
+class FontExample extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,9 +16,9 @@ class TextExample extends StatelessWidget{
         backgroundColor: Colors.amber,
       ),
       body:Center(
-        child: Text("Text practice jjjjjjjjjjlllllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjws",style: TextStyle(
+        child: Text("Text practice jjjjjjjjjjlllllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjws",style: GoogleFonts.cedarvilleCursive(
           fontSize: 36,
-          
+          // fontFamily: "cursive",
           fontWeight: FontWeight.bold,
           color: Colors.green,
           backgroundColor: Colors.amber,
