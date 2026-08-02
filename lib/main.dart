@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/topics/alignAndCenter.dart';
 import 'package:flutter_application_2/topics/fonts.dart';
+import 'package:flutter_application_2/topics/richText.dart';
 import 'package:flutter_application_2/topics/text.dart';
+import 'package:flutter_application_2/topics/textRich.dart';
 void main(){
   runApp(
     MYApp()
@@ -11,7 +14,7 @@ class MYApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FontExample(),
+      home: AlignAndCenterExample(),
     );
   }
 }
