@@ -8,5 +8,7 @@ This repository contains my Flutter learning journey.
 - google fonts and its integration
 - text.rich and RichText use
 - align and center 
+- container and sizeboxed
+- box decoration
 
 I will update this repository regularly as I continue learning Flutter.

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/topics/alignAndCenter.dart';
+import 'package:flutter_application_2/topics/boxDecoration.dart';
+import 'package:flutter_application_2/topics/containerAndSizeBox.dart';
 import 'package:flutter_application_2/topics/fonts.dart';
 import 'package:flutter_application_2/topics/richText.dart';
 import 'package:flutter_application_2/topics/text.dart';
@@ -14,7 +16,7 @@ class MYApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AlignAndCenterExample(),
+      home: BoxDecoratioExample(),
     );
   }
 }
