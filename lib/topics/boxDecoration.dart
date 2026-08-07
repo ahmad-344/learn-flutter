@@ -15,16 +15,22 @@ class BoxDecoratioExample extends StatelessWidget{
       ),
       body:Center(
         child: Container(
-          color: const Color.fromARGB(255, 150, 159, 165),
-          child: Center(
-              child: Text("container and size box ",
+          decoration: BoxDecoration(
+             color: const Color.fromARGB(255, 150, 159, 165),
+             borderRadius: BorderRadius.all(Radius.elliptical(21,41   ))
+          ),
+          // width: 200,
+          // height: 200,
+          // padding: EdgeInsets.all(10),
+          // padding: EdgeInsets.only(left: 100),
+          padding: EdgeInsets.symmetric(horizontal: 10),
+         
+          child:Text("container and size box ",
               style: TextStyle(fontSize: 18),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,),
-            ),
         ),
-      ),
-      
+      ), 
     );
   }
 }
