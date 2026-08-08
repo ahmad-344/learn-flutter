@@ -10,5 +10,6 @@ This repository contains my Flutter learning journey.
 - align and center 
 - container and sizeboxed
 - box decoration
+- box decoration && gradient && shadows
 
 I will update this repository regularly as I continue learning Flutter.
